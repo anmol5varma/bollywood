@@ -1,0 +1,1 @@
+export const IF_CASTED_GROUP_ID = "120363403691168809@g.us"
