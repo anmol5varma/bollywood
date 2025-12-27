@@ -2,7 +2,7 @@ name: Daily send image to whatsapp with message
 
 on:
   schedule:
-    - cron: '0 3,15 * * *'   # 01:47 UTC = 7:17 AM IST
+    - cron: '0 2,12 * * *'   # 01:47 UTC = 7:17 AM IST
   workflow_dispatch:
 
 jobs:
