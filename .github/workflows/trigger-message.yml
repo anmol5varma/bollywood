@@ -1,0 +1,28 @@
+name: Daily send image to whatsapp with message
+
+on:
+  schedule:
+    - cron: '0 3,15 * * *'   # 01:47 UTC = 7:17 AM IST
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run script
+        env:
+          API_TOKEN: ${{ secrets.API_TOKEN }}
+          INSTANCE_ID: ${{ secrets.INSTANCE_ID }}
+        run: node src/index.js
