@@ -37,7 +37,7 @@ async function main() {
         const caption = captions[selectedFile.split('.')[0]];
         
         // Call the function
-        // await sendMessageWithFile(caption, IF_CASTED_GROUP_ID, filepath);
+        await sendMessageWithFile(caption, IF_CASTED_GROUP_ID, filepath);
         console.log(selectedFile, " is sent.")
         
         // Log the event
