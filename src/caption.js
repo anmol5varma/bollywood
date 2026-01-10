@@ -36,7 +36,14 @@ Shah Rukh as Ethan Hunt becomes a sleek, calm-under-pressure spy with emotional 
 A more refined version of the IMF agent — less reckless, more calculated, but just as iconic.
 
 SRK as Ethan Hunt — better or not quite? 🕶️🔥
-`
+`,
+    wonderwoman: `What if Kriti Sanon stepped into the world of Wonder Woman?
+
+Kriti as Diana Prince brings quiet strength, sharp grace, and commanding presence.
+Less brute force, more composed power — a warrior who leads with resolve, not rage.
+Elegant, fearless, and unmistakably iconic.
+
+Kriti as Wonder Woman — perfect fit or not your Amazon? ⚔️🔥`
 };
 
 export default captions;
